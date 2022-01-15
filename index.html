@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Chars Left</title>
+        
+        <style type="text/css">
+            body {
+                margin: 2.5em auto;
+                max-width: 400px;
+            }
+
+            #chars-left {
+                margin: 1em 0;
+            }
+            textarea{
+                width: 100%;
+                height: 150px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Chars Left</h1>
+        
+        <main>
+            <section>
+                <p>Questo plugin di javascript lavora utilizzando jQuery.</p>
+                <p>Il plugin serve a contare il numero di caratteri restanti da poter
+                    scrivere all'interno di una <strong>textarea</strong>.</p>
+            </section>
+            
+            <hr />
+            <div class="form-group">
+                <textarea name="message" id="message" data-length="140" class="form-control"></textarea>
+            </div>  
+        </main>
+        
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script type="text/javascript" src="charsLeft.js"></script>
+    </body>
+</html>
